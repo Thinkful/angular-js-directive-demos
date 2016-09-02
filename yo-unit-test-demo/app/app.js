@@ -1,4 +1,4 @@
-angular.module('app', [])
+angular.module('myApp', [])
 	.directive('yoYo', function(){
 		return {
 			restrict: 'E',

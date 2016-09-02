@@ -6,7 +6,7 @@ describe('yoYo', function() {
 		html,
 		someone;
 
-	beforeEach(module("app"));
+	beforeEach(module("myApp"));
 	beforeEach(inject(function($rootScope, $compile) {
 		scope = $rootScope.$new();
 		someone = 'Willis';
